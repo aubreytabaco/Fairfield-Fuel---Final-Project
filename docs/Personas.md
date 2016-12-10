@@ -199,6 +199,100 @@
           </p>
         </th>
       <td>
+        <p>Mentor</p>
+      </td>
+      </tr>
+
+      <tr>
+        <th>
+          <p>
+            <strong>Photo:</strong>
+          </p>
+        </th>
+      <td>
+        <p>
+          <img alt="Brandon Stevens" src="C:\Users\Aubrey\Documents\College\Fall 2016\Web Design\GitHub\Fairfield-Fuel---Final-Project\docs\images\Brandon Stevens.png" style="width: 104px; height: 143px;">
+        </p>
+      </td>
+      </tr>
+
+      <tr>
+        <th>
+          <p>
+            <strong>Name:</strong>
+          </p>
+        </th>
+      <td>
+        <p>Brandon Stevens</p>
+      </td>
+      </tr>
+
+      <tr>
+        <th>
+          <p>
+            <strong>Job Title:</strong>
+          </p>
+        </th>
+      <td>
+        <p>Director of Fuel</p>
+      </td>
+      </tr>
+
+      <tr>
+        <th>
+          <p>
+            <strong>Demographics:</strong>
+          </p>
+        </th>
+      <td>
+        <ul>
+          <li>40 years old</li>
+          <li>Married</li>
+          <li>Father of two children</li>
+          <li>Alumnus of Fairfield University</li>
+        </ul>
+      </td>
+      </tr>
+
+      <tr>
+        <th>
+          <p>
+            <strong>Goals and Tasks:</strong>
+          </p>
+        </th>
+      <td>
+        <p>He is an experienced entrepreneur and passionate teacher.  He is involved if numerous startup companies created through the help of Fuel and takes the time to get to know and work with every individual seeking guidance.
+          Uses this site to:
+         <ul>
+          <li>Broadcast mentoring events and support services</li>
+          <li>Update starting entrepreneurs on the benefits they can receive through Fuel</li>
+          <li>Communicate with applicants interested in joining the incubator</li>
+        </ul>
+        </p>
+      </td>
+      </tr>
+
+      <tr>
+        <th>
+          <p>
+            <strong>Environment:</strong>
+          </p>
+        </th>
+      <td>
+        <p>He has a hands-on work ethic and can always be found in the incubator office. He has in-depth knowledge of computer skills that can be applied to helping startups launch their careers.</p>
+      </td>
+      </tr>
+    </table>
+
+
+  <table>
+      <tr>
+        <th>
+          <p>
+            <strong>Persona:</strong>
+          </p>
+        </th>
+      <td>
         <p>Fuel Applicant</p>
       </td>
       </tr>
