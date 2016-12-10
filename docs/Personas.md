@@ -12,6 +12,100 @@
         </p>
       </th>
     <td>
+      <p>Startup Entrepreneur</p>
+    </td>
+    </tr>
+
+    <tr>
+      <th>
+        <p>
+          <strong>Photo:</strong>
+        </p>
+      </th>
+    <td>
+      <p>
+        <img alt="Melissa Johnson" src="C:\Users\Aubrey\Documents\College\Fall 2016\Web Design\GitHub\Fairfield-Fuel---Final-Project\docs\images\Melissa Johnson.jpg" style="width: 143px; height: 104px;">
+      </p>
+    </td>
+    </tr>
+
+    <tr>
+      <th>
+        <p>
+          <strong>Name:</strong>
+        </p>
+      </th>
+    <td>
+      <p>Melissa Johnson</p>
+    </td>
+    </tr>
+
+    <tr>
+      <th>
+        <p>
+          <strong>Job Title:</strong>
+        </p>
+      </th>
+    <td>
+      <p>Founder of <i>Sew Lovely</i> online clothing store</p>
+    </td>
+    </tr>
+
+    <tr>
+      <th>
+        <p>
+          <strong>Demographics:</strong>
+        </p>
+      </th>
+    <td>
+      <ul>
+        <li>25 years old</li>
+        <li>Not married</li>
+        <li>No children</li>
+        <li>Degree in marketing and advertising from Fairfield University</li>
+      </ul>
+    </td>
+    </tr>
+
+    <tr>
+      <th>
+        <p>
+          <strong>Goals and Tasks:</strong>
+        </p>
+      </th>
+    <td>
+      <p>She is hardworking and willing to put all of her effort into launching her online brand with personalized clothing suited for each client.
+        Uses this site to:
+       <ul>
+        <li>Find investors to help support her newly-launched online clothing store</li>
+        <li>Research vendors and spaces provided by Fuel to showcase her clothes and other products</li>
+        <li>Learn new material about how to build and maintain a successful business</li>
+      </ul>
+      </p>
+    </td>
+    </tr>
+
+    <tr>
+      <th>
+        <p>
+          <strong>Environment:</strong>
+        </p>
+      </th>
+    <td>
+      <p>While she spends most of her time physically making her products, she also uses a good portion on establishing her online store and marketing her brand to the public.  She has strong marketing and advertising skills that will help her expand her name.</p>
+    </td>
+    </tr>
+  </table>
+
+
+<table>
+    <tr>
+      <th>
+        <p>
+          <strong>Persona:</strong>
+        </p>
+      </th>
+    <td>
       <p>Investor</p>
     </td>
     </tr>
