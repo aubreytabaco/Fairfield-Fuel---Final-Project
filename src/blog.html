@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fairfield Fuel </title>
+<style type="text/css">
+/*--Basic Styling--*/
+body {background-color:#cccccc }
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2 {text-align: center;
+background-color: white;}
+.big-capital{ font-size: 160%;}
+/*--Navbar Styling--*/
+nav {
+   background-color: #000000;
+   padding:6px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+}
+li {
+    display: inline;
+    padding:8px;
+}
+ul li {
+  font-style:
+    width:100px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul a:link {
+    color: #fff;
+  }
+nav ul a:visited {
+    color: #fff;
+  }
+nav ul a:focus {
+	color:#f44242;
+	border-color: #fff;
+}
+nav ul a:hover {
+    color: #f44242;
+	border-color: #fff;
+  }
+nav ul a:active {
+	color:#F00;
+}
+/*--Coverflow Styling--*/
+#menu {
+  text-align: center;
+display: block;}
+ul#menu {
+  padding: 30px;
+  margin: 30p;
+  -moz-perspective: 780px;
+  -webkit-perspective: 780px;
+  perspective: 780px;
+  background-color: white;
+}
+
+ul#menu li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+ul#menu li {
+  text-indent: -9999px;
+  position: relative;
+  display: inline-block;
+  padding-top: 20px;
+  width: 200px;
+  height: 650px;
+  margin-right: -70px;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  z-index: 50;
+  -moz-transform: rotateY(45deg);
+  -webkit-transform: rotateY(45deg);
+  transform: rotateY(45deg);
+  -moz-transition: all .45s;
+  -webkit-transition: all .45s;
+  transition: all .45s;
+  opacity: .8;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.4), 0 0 30px rgba(0,0,0,0.2);
+}
+
+ul#menu li:last-child,
+ul#menu li:first-child { z-index: 45; }
+
+ul#menu li:nth-child(2),
+ul#menu li:nth-child(5) { z-index: 46; }
+
+ul#menu li:nth-child(3) { z-index: 51; }
+
+ul#menu li.highlighted {
+  -moz-transform: rotateY(0deg) scale(1.2);
+  -webkit-transform: rotateY(0deg) scale(1.2);
+  transform: rotateY(0deg) scale(1.2);
+  z-index: 55!important;
+}
+
+ul#menu .highlighted ~ li {
+  -moz-transform: rotateY(-45deg);
+  -webkit-transform: rotateY(-45deg);
+  transform: rotateY(-45deg);
+}
+
+ul#menu li:hover,
+ul#menu li:first-child:hover,
+ul#menu li.highlighted ~ li:hover { z-index: 60!important; }
+
+ul#menu li:hover {
+  -moz-transform: rotateY(0deg) scale(1.2);
+  -webkit-transform: rotateY(0deg) scale(1.2);
+  transform: rotateY(0deg) scale(1.2);
+  opacity: 1;
+}
+
+ul#menu li:hover ~ li {
+  -moz-transform: rotateY(-45deg);
+  -webkit-transform: rotateY(-45deg);
+  transform: rotateY(-45deg);
+}
+
+ul#menu:hover li:not(:hover) {
+  -moz-transform: rotateY(45deg);
+  -webkit-transform: rotateY(45deg);
+  transform: rotateY(45deg);
+}
+
+ul#menu:hover li:hover ~ li {
+  -moz-transform: rotateY(-45deg);
+  -webkit-transform: rotateY(-45deg);
+  transform: rotateY(-45deg);
+}
+
+ul#menu:not(:hover) li.highlighted { opacity: 1; }
+
+ul#menu li:after {
+  content: "";
+  width: 200px;
+  height: 20px;
+  background: rgba(255,255,255,.5);
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  -webkit-mask-image: -webkit-gradient(linear, left 10%, left bottom, from(rgba(0,0,0,.5)), to(rgba(0,0,0,0)));
+}
+
+/*--Footer Styling--*/
+footer.page-footer.row {
+    background-color: #000000;
+    padding: 20px 0;
+}
+h3 {font-style:
+  width:100px;
+  text-align: center;
+  color: white;
+}
+</style>
+<head>
+  <body>
+    <div class="page-header">
+    <a href="index.html"><img class="logo" src="fuel_logo.png" alt="fairfield fuel logo" width="200px" height="100px"></a>
+   </div>
+
+   <nav class="navbar navbar-inverse">
+   <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="involved.html">Get Involved</a></li>  <li><a href="blog.html">Blog</a></li>  <li><a href="contact_us.html">Contact Us</a></li>
+    </ul>
+   </div>
+   </nav>
+   <div>
+   <ul id="menu">
+    <li> <a href="#"><img src="home.png" width="200px" height="160px">b</a> </li>
+    <li> <a href="#"><img src="home.png" width="200px" height="160px">hj</a> </li>
+    <li class="highlighted"> <a href="#"><img src="home.png" width="200px" height="160px">OUR STORIES</a> </li>
+    <li> <a href="#"><img src="home.png" width="200px" height="160px">nb</a> </li>
+    <li> <a href="#"><img src="home.png" width="200px" height="160px">hjgu</a> </li>
+  </ul>
+  </div>
+
+ <footer class="page-footer row">
+        <h3>BLOG</h3>
+      </a>
+      </footer>
+
+  </body>
+</html>
