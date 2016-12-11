@@ -1,7 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="styles.css">
+<style>
+table {
+  border: 1px solid black;
+}
+
+table {
+  padding: 10px;
+}
+
+tr:nth-child(odd) {background-color: #D1DAED}
+
+th {
+  background-color: 6379AD;
+}
+
+p {
+  font-size: 16px;
+  font-family: arial, helvetica, sans-serif;
+}
+
+li {
+  font-size: 16px;
+  font-family: arial, helvetica, sans-serif;
+}
+
+</style>
 </head>
 
 <table>
