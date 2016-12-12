@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<body>
+
+<div class="w3-container w3-teal">
+<h1>Innovation Depot</h1>
+</div>
+
+<div class="w3-content">
+
+<div class="w3-row w3-margin">
+
+<div class="w3-third">
+  <img src="C:\Users\Aubrey\Documents\College\Fall 2016\Web Design\GitHub\0scratch\images\Innovation Depot\ID Home.png" style="width:100%;min-height:200px">
+</div>
+<div class="w3-twothird w3-container">
+  <h2>Home</h2>
+  <p>
+  The Home page is where you can find an introductory about the incubator.  There are also quick links to the services they provide, how to join or donate, and current events.
+  </p>
+</div>
+
+</div>
+<div class="w3-row w3-margin">
+
+<div class="w3-third">
+  <img src="C:\Users\Aubrey\Documents\College\Fall 2016\Web Design\GitHub\0scratch\images\Innovation Depot\ID Educate.png" style="width:100%;min-height:200px">
+</div>
+<div class="w3-twothird w3-container">
+  <h2>Educate</h2>
+  <p>
+  Innovation Depot provides education to startup entrepreneurs who are interested in learning how to code and become familiar with web technologies such as TypeScript/JavaScript, HTML5, and CSS3.
+  </p>
+</div>
+
+</div>
+<div class="w3-row w3-margin">
+
+<div class="w3-third">
+  <img src="C:\Users\Aubrey\Documents\College\Fall 2016\Web Design\GitHub\0scratch\images\Innovation Depot\ID Accelerate.png" style="width:100%;min-height:200px">
+</div>
+<div class="w3-twothird w3-container">
+  <h2>Accelerate</h2>
+  <p>
+  The Velocity Accelerator is a twelve-week program that helps businesses expand their brand to up to a full year’s worth of progress.  The program heavily depends on a high-performance environment, helpful mentors and investors, top business training classes, and so much more.
+  </p>
+</div>
+
+</div>
+<div class="w3-row w3-margin">
+
+<div class="w3-third">
+  <img src="C:\Users\Aubrey\Documents\College\Fall 2016\Web Design\GitHub\0scratch\images\Innovation Depot\ID Collaborate.png" style="width:100%;min-height:200px">
+</div>
+<div class="w3-twothird w3-container">
+  <h2>Collaborate</h2>
+  <p>
+  This page provides an area for entrepreneurs to Apply to the program and lists the benefits of joining.  This includes fast internet, a strong community, and low risk environment to work.  Innovation Depot also provides their collaborators with free parking, conference room time, and regular admission to events and seminars.
+  </p>
+</div>
+
+</div>
+<div class="w3-row w3-margin">
+
+<div class="w3-third">
+  <img src="C:\Users\Aubrey\Documents\College\Fall 2016\Web Design\GitHub\0scratch\images\Innovation Depot\ID Companies.png" style="width:100%;min-height:200px">
+</div>
+<div class="w3-twothird w3-container">
+  <h2>Companies</h2>
+  <p>
+  Innovation Depot lists the growing companies that are affiliated with the program, each with a link to those businesses’ official websites.
+  </p>
+</div>
+
+</div>
+<div class="w3-row w3-margin">
+
+<div class="w3-third">
+  <img src="C:\Users\Aubrey\Documents\College\Fall 2016\Web Design\GitHub\0scratch\images\Innovation Depot\ID Events.png" style="width:100%;min-height:200px">
+</div>
+<div class="w3-twothird w3-container">
+  <h2>Events</h2>
+  <p>
+  This contains a full calendar list of events including the time, date, and location.  When clicking on each link, you can find a description of the event, who will be in attendance, and who to contact for more details.
+  </p>
+</div>
+
+</div>
+</div>
+</body>
+</html>
