@@ -6,15 +6,21 @@
 <title>Fairfield Fuel </title>
 <style type="text/css">
 /*--Basic Styling--*/
-body {background-color:#cccccc }
+body {background-color:#e2e2de }
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
+.big-capital{ font-size: 160%;}
+h1{font-size: 50px; color:#f44242}
+h2{font-size:25px;}
+h3{font-size: 20px;font-weight: lighter;
+}
 /*--Navbar Styling--*/
 nav {
+  text-decoration: none;
+  font-size: 18px;
    background-color: #000000;
    padding:6px;
    display: block;
@@ -25,6 +31,7 @@ nav {
 li {
     display: inline;
     padding:8px;
+    text-decoration: none;
 }
 ul li {
   font-style:
@@ -37,6 +44,7 @@ ul li {
 }
 nav ul a:link {
     color: #fff;
+    text-decoration: none;
   }
 nav ul a:visited {
     color: #fff;
@@ -48,6 +56,7 @@ nav ul a:focus {
 nav ul a:hover {
     color: #f44242;
 	border-color: #fff;
+  text-decoration: none;
   }
 nav ul a:active {
 	color:#F00;
@@ -55,17 +64,19 @@ nav ul a:active {
 /*--Coverflow Styling--*/
 #menu {
   text-align: center;
-display: block;}
+display: block;
+}
 ul#menu {
   padding: 30px;
   margin: 30p;
   -moz-perspective: 780px;
   -webkit-perspective: 780px;
   perspective: 780px;
-  background-color: white;
+  background-color: black;
 }
 
 ul#menu li a {
+  text-decoration: none;
   display: block;
   width: 100%;
   height: 100%;
@@ -91,7 +102,7 @@ ul#menu li {
   -webkit-transition: all .45s;
   transition: all .45s;
   opacity: .8;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.4), 0 0 30px rgba(0,0,0,0.2);
+  box-shadow: inset 0 1px 0 rgba(0,0,0,.4), 0 0 30px rgba(255,255,255,0.5);
 }
 
 ul#menu li:last-child,
@@ -156,6 +167,7 @@ ul#menu li:after {
   left: 0;
   -webkit-mask-image: -webkit-gradient(linear, left 10%, left bottom, from(rgba(0,0,0,.5)), to(rgba(0,0,0,0)));
 }
+
 /*--Footer Styling--*/
 footer.page-footer.row {
     background-color: #000000;
@@ -170,7 +182,8 @@ h4 {font-style:
 <head>
   <body>
     <div class="page-header">
-    <a href="index.html"><img class="logo" src="C:\Users\Aubrey\Documents\College\Fall 2016\Web Design\GitHub\Fairfield-Fuel---Final-Project\docs\images\fuel_logo.png" alt="fairfield fuel logo" width="200px" height="100px"></a>
+    <a href="index.html"><img class="logo" src="C:\Users\Aubrey\Documents\College\Fall 2016\Web Design\GitHub\Fairfield-Fuel---Final-Project\docs\images\
+fuel_logo.png" alt="fairfield fuel logo" width="200px" height="100px"></a>
    </div>
 
    <nav class="navbar navbar-inverse">
@@ -188,19 +201,22 @@ h4 {font-style:
    <div>
    <ul id="menu">
 
-    <li> <a href="#support"><img src="home.png" width="200px" height="160px">Recieve Support</a> </li>
-    <li class="highlighted"> <a href="#summer"><img src="home.png" width="200px" height="160px">SUMMER FELLOWS PROGRAM</a> </li>
-    <li> <a href="#become"><img src="home.png" width="200px" height="160px">BECOME A MENTOR</a> </li>
+    <li> <a href="#support"><img src="C:\Users\Aubrey\Documents\College\Fall 2016\Web Design\GitHub\Fairfield-Fuel---Final-Project\docs\images\
+support.png" alt="two people" width="150px" height="150px"><font  color="#ffffff">Recieve Support</font></a> </li>
+    <li class="highlighted"> <a href="#summer"><img src="C:\Users\Aubrey\Documents\College\Fall 2016\Web Design\GitHub\Fairfield-Fuel---Final-Project\docs\images\
+calendar.png" alt="calendar" width="140px" height="150px"><font  color="#ffffff">FELLOWS PROGRAM</font></a> </li>
+    <li> <a href="#become"><img src="C:\Users\Aubrey\Documents\College\Fall 2016\Web Design\GitHub\Fairfield-Fuel---Final-Project\docs\images\
+mentorship.png" alt="mentoring" width="200px" height="150px"><font  color="#ffffff">BECOME A MENTOR</font></a> </li>
   </ul>
   </div>
 
   <center><table>
   <div>
-    <h1>Fairifield FUEL seeks to serve not only Fairfield University Students but those businesses in our sorrounding communities.</h1>
-    <h1 id="summer">Summer Fellow Program</h1>
-    <h2>After the Fairfield StartUp Competition, students who show potential in creating their own business will be entered into the summer fellows program.This program provides students with the guidance they will need through the process of launching their startups. </h2>
+
+    <h1 id="summer">Summer Fellows Program</h1>
+    <h3>After the Fairfield StartUp Competition, students who show potential in creating their own business will be entered into the summer fellows program.This program provides students with the guidance they will need through the process of launching their startups. </h3>
     <h1 id="become">Become a Mentor</h1>
-    <h2>HIT UP CHRISTOPHER HUNTLEY!</h2>
+    <h3>HIT UP CHRISTOPHER HUNTLEY!</h3>
     <h1 id="support">Recieve Support</h1>
     <h2>Mentoring and Advising</h2>
     <h3>"FUEL offers real-time access to experts in the product or service niche that you have chosen for your business. These include university faculty business leaders and successful entrepreneurs facilitated by Fairfields mentoring program."</h3>
